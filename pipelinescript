@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  C:\jmeter\bin\jmeter.bat -n -t C:\jmeter\bin\Shopit.jmx -l Result.jtl
+}
